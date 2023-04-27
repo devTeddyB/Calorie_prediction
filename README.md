@@ -4,7 +4,7 @@
 ### 설명
  - table 데이터를 활용한 회귀분석부터 다시 공부해보고자 데이콘에서 진행하는 'Basic 칼로리 소모량 예측 경진대회'에 참여
  - 마감 이틀 전 참여를 해서 gridsearchCV를 사용하여 kerasregression 모델의 하이퍼 파라미터 튜닝으로 Public RMSE 0.48434 88등/ Private RMSE 0.49537 등으로 마무리
----
+
 ### 과정
  + **데이터 설명**
    + 대회에서 제공하는 11개의 독립변수로 이루어진 7500개의 Train 세트와 타겟을 제외한 10개의 독립변수로 이루어진 7500개의 Test 세트를 사용
@@ -21,7 +21,7 @@
  + **테스트 결과**
    + Test 세트를 사용하여 칼로리 소모량 예측 실시
    + submission 으로 저장 후 submit, Public RMSE 0.48434 / Private RMSE 0.49537(종료 후 확인) 를 얻음
----
+
 ### 회고
   - 이번 대회 참여는 기초부터 다시보자는 마음으로 시작했지만 너무 늦게 참여해서 여러 모델을 시험해볼 수 없었다
   - 대회 마감 후 다른 분들의 코드를 리뷰할 기회가 있었는데 모두들 복잡한 모델이나 튜닝을 하기보다 간단한 선형모델을 사용했을 때 점수가 높았다고 해서, 더욱 아쉬웠다.
@@ -31,7 +31,7 @@
 ### 사용한 프로그래밍 언어 및 라이브러리
 <img src="https://img.shields.io/badge/Python-blue?style=flat"/> <img src="https://img.shields.io/badge/scikit_learn-yellow?style=flat"/> <img src="https://img.shields.io/badge/tensorflow-orange?style=flat"/> <img src="https://img.shields.io/badge/matplotlib-orange?style=flat"/>
 
----
+
 ### 데이터 정보
  - **데이터**
    - Dataset : https://www.dacon.io/competitions/official/236097/data
