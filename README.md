@@ -10,9 +10,9 @@
    + 대회에서 제공하는 11개의 독립변수로 이루어진 7500개의 Train 세트와 타겟을 제외한 10개의 독립변수로 이루어진 7500개의 Test 세트를 사용
    + 컬럼명 : 'Exercise_Duration', 'Body_Temperature(F)', 'BPM', 'Height(Feet)', 'Height(Remainder_Inches)', 'Weight(lb)', 'Weight_Status', 'Gender', 'Age', 'Calories_Burned'
    + 데이터 전처리
-    ++ 독립변수 중 단위 변환이 필요한 컬럼들에 대해서 변환 실행
-    ++ 타겟 데이터 분리 및 학습데이터에서 타켓 컬럼 삭제
-    ++ PolynomialFeatures를 사용하여 부족한 독립변수에 복잡도를 증가시키고 StandardScaler도 함께 적용하여 모델의 설명력을 높이는 용도로 사용
+    - 독립변수 중 단위 변환이 필요한 컬럼들에 대해서 변환 실행
+    - 타겟 데이터 분리 및 학습데이터에서 타켓 컬럼 삭제
+    - PolynomialFeatures를 사용하여 부족한 독립변수에 복잡도를 증가시키고 StandardScaler도 함께 적용하여 모델의 설명력을 높이는 용도로 사용
  + **모델링**
    + tensorflow의 kerasregressor를 모델로 선택
    + gridsearchCV 하이퍼파라미터 튜너를 사용하여 최상의 조합을 찾기 위한 교차검증 실시
