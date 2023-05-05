@@ -28,6 +28,9 @@
   - 시간이 없다고 생각하다보니 전처리에 대한 다양한 시도와 모델링에서도 baseline 모델을 설정하고 기초모델부터 돌려봤어야 했는데 그러지 못했다는 것이 크게 다가왔다.
   - 그리고 내가 모르던 라이브러리를 알게되었다. 몇몇 참가자분께서 pycaret의 Automl을 사용하였는데 다양한 모델의 예측을 한눈에 볼 수 있었다고 한다. 조만간 실험해보고 업데이트 할 생각이다.
 ---
+### 추가 및 수정
+ + 23.05.05
+   + 기존에 올린 코드에 데이터 분석 내용 추가
 ### 사용한 프로그래밍 언어 및 라이브러리
 <img src="https://img.shields.io/badge/Python-blue?style=flat"/> <img src="https://img.shields.io/badge/scikit_learn-yellow?style=flat"/> <img src="https://img.shields.io/badge/tensorflow-orange?style=flat"/> <img src="https://img.shields.io/badge/matplotlib-orange?style=flat"/>
 
