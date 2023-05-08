@@ -35,7 +35,7 @@
    + 대회 종료 이후 학습해본 모델 및 성능 비교
      |모델명|RMSE|baseline 기준 전처리 차이점|
      |:---:|:---:|:---:|
-     |GridsearchCV kerasregressor|0.4805||
+     |GridsearchCV kerasregressor|0.4805|baseline model|
      |Linear Regressor|0.2983|PolynomialFeatures degree 2 -> 3 변경, interaction_only=True 추가|
      |Linear Regressor|0.2880|위 모델에서 Weight_Status 컬럼 삭제|
      |Linear Regressor|0.2874|위 모델에서 Height(cm) 컬럼 추가 삭제|
