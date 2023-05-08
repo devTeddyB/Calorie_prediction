@@ -40,8 +40,8 @@
      |Linear Regressor|0.2880|위 모델에서 Weight_Status 컬럼 삭제|
      |Linear Regressor|0.2874|위 모델에서 Height(cm) 컬럼 추가 삭제|
      |Linear Regressor|0.1505|위 모델에서 예측값 정수형 변환|
-     |Cross Validation|0.2915|PolynomialFeatures degree 2 -> 3 변경, interaction_only=True 추가|
-     |Cross Validation|0.2888|위 모델에서 Weight_Status 컬럼 삭제|
+     |Cross Validation(Lr)|0.2915|PolynomialFeatures degree 2 -> 3 변경, interaction_only=True 추가|
+     |Cross Validation(Lr)|0.2888|위 모델에서 Weight_Status 컬럼 삭제|
    
 
 ### 사용한 프로그래밍 언어 및 라이브러리
